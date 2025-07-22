@@ -1,0 +1,6 @@
+:root {
+  --fonte-principal: "Luckiest Guy", cursive;
+  --cor-fundo: #ff8133;
+  --contorno-texto: 1px 1px 0 black, -1px -1px 0 black, 1px -1px 0 black,
+    -1px 1px 0 black;
+}

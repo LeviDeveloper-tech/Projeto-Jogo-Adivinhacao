@@ -1,0 +1,53 @@
+/jogo-adivinhacao/
+│
+├── index.html
+│
+├── /styles
+│   ├── reset.css             ← Reset de estilos (opcional)
+│   ├── variables.css         ← Cores, sombras, fontes etc
+│   ├── layout.css            ← Estrutura geral da página (centralização, section etc)
+│   ├── components.css        ← Botões, títulos, mensagens, animações
+│   └── main.css              ← Arquivo principal que importa os outros
+│
+├── /scripts
+│   ├── main.js               ← Ponto de entrada (controla fluxo das telas e do jogo)
+│   ├── /views                ← Manipulação de "telas" (início, instruções, jogo, fim)
+│   │   ├── showIntro.js          ← Mostra a primeira "tela" com o botão iniciar
+│   │   ├── showInstructions.js   ← Avança pelas instruções (anterior / próximo)
+│   │   ├── showReady.js          ← Tela "Tudo pronto"
+│   │   ├── showLoading.js        ← Tela "Gerando número..."
+│   │   └── showGame.js           ← Interface principal do jogo
+│   ├── /game                 ← Lógica do jogo (número secreto, tentativas etc)
+│   │   ├── generateNumber.js     ← Função para gerar número aleatório
+│   │   ├── checkGuess.js         ← Função para avaliar o palpite
+│   │   ├── gameState.js          ← Armazena tentativas, número secreto, fim de jogo
+│   │   └── restartGame.js        ← Reinicia o estado do jogo
+│   └── /utils
+│       └── domUtils.js       ← Criação de elementos, manipulação de classes etc
+│
+└── /assets
+    └── /images               ← Se quiser usar imagens no lugar do Canva futuramente
+
+
+
+-------------CSS-----------------
+✅ 1. Estilização do body e do section
+📄 layout.css
+Use esse arquivo para estruturas globais como o body, main, section, containers centrais etc.
+✅ 2. Definição de fontes, cores e sombras
+📄 variables.css
+Use este arquivo para variáveis CSS personalizadas: cores, tamanhos, fontes, sombras etc.
+✅ 3. Outras estilizações (botões, títulos, etc.)
+📄 components.css
+Estilos reutilizáveis para botões, títulos, inputs, mensagens etc.
+✅ 4. Arquivo principal para interligar tudo
+📄 main.css
+Esse é o arquivo central que junta todos os outros. Você só importa esse no HTML.
+✅ Resumo rápido:
+Arquivo	Responsável por...
+variables.css -> Cores, fontes, sombras em variáveis CSS
+layout.css -> body, section, containers principais
+components.css-> Botões, títulos, inputs, feedbacks
+main.css -> Junta todos os CSS acima
+index.html -> Só importa main.css
+
