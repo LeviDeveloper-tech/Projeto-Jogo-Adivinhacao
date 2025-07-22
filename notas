@@ -49,5 +49,5 @@ variables.css -> Cores, fontes, sombras em variáveis CSS
 layout.css -> body, section, containers principais
 components.css-> Botões, títulos, inputs, feedbacks
 main.css -> Junta todos os CSS acima
-index.html -> Só importa main.css
+index.htmlSó importa main.css
 

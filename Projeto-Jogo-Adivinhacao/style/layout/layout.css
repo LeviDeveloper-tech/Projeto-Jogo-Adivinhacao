@@ -1,8 +1,8 @@
 body {
-  background-color: var(--cor-fundo);
+  background-color: var(--principal-cor-fundo);
 }
 header {
-  font-family: var(--fonte-principal);
+  font-family: var(--principal-fonte);
   font-size: 45pt;
   color: white;
   text-align: center;
@@ -21,13 +21,14 @@ section {
   align-items: center;
   justify-content: center;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.61);
+  flex-direction: column;
 }
 
 footer {
   color: white;
   font-style: italic;
   font-size: 13px;
-  font-family: var(--fonte-principal);
+  font-family: var(--principal-fonte);
   text-shadow: var(--contorno-texto);
   text-align: center;
   bottom: 0;

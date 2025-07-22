@@ -1,0 +1,60 @@
+button {
+  border-radius: 34px;
+  font-family: fantasy;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+.initialButton {
+  width: 350px;
+  height: 80px;
+  font-size: 35pt;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+}
+
+.instructionDiv {
+  background-color: transparent;
+  width: 440px;
+  padding: 30px;
+  padding-top: 5px;
+  padding-bottom: 15px;
+  font-family: cursive;
+  font-size: 13pt;
+  color: black;
+}
+
+.instructionDiv h3 {
+  text-align: center;
+  font-size: 30pt;
+  padding-top: 0px;
+  padding-bottom: 15px;
+}
+.instructionDiv ol {
+}
+
+.instructionDiv ul {
+  list-style-type: none;
+}
+.instructionDiv ul li {
+  font-size: 14px;
+  margin: 5px;
+}
+
+.divButtons {
+  display: flex;
+  justify-content: space-between;
+  gap: 25rem;
+  margin: auto;
+}
+.navButtons {
+  font-size: 15px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 600;
+  margin-top: 0px;
+  background-color: transparent;
+  border: none;
+}
