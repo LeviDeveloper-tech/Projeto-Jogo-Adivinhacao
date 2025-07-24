@@ -16,7 +16,9 @@ button:hover {
   box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
 }
 
-.instructionDiv {
+.mensageDiv,
+.mensageDivReady,
+.mensageDivGenerator {
   background-color: transparent;
   width: 440px;
   padding: 30px;
@@ -25,23 +27,36 @@ button:hover {
   font-family: cursive;
   font-size: 13pt;
   color: black;
+  justify-content: space-between;
+  height: 100%;
 }
 
-.instructionDiv h3 {
+.mensageDiv h3 {
   text-align: center;
   font-size: 30pt;
   padding-top: 0px;
   padding-bottom: 15px;
 }
-.instructionDiv ol {
-}
 
-.instructionDiv ul {
+.mensageDiv ul {
   list-style-type: none;
 }
-.instructionDiv ul li {
+.mensageDiv ul li {
   font-size: 14px;
   margin: 5px;
+}
+
+.mensageDivReady,
+.mensageDivGenerator {
+  display: flex;
+  flex-direction: column;
+  font-size: 15pt;
+  text-align: center;
+  justify-content: center;
+}
+.mensageDivGenerator {
+  font-size: 20pt;
+  font-weight: bolder;
 }
 
 .divButtons {
@@ -49,6 +64,7 @@ button:hover {
   justify-content: space-between;
   gap: 25rem;
   margin: auto;
+  padding: 10px;
 }
 .navButtons {
   font-size: 15px;

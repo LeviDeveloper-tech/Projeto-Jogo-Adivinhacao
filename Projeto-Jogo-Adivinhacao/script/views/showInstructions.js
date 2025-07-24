@@ -5,7 +5,7 @@ export function showInstructions() {
   const principalSection = document.getElementById("principalSection");
 
   principalSection.innerHTML = `
-    <div id="instructionDiv" class="instructionDiv">
+    <div id="mensageDiv" class="mensageDiv">
       <h3>Instruções</h3>
       <ol>
         <li>Será gerado um número aleatório de 0 a 100;</li>
