@@ -1,3 +1,5 @@
+import { showGame } from "./showGame.js";
+
 export function showGenerator() {
   const principalSection = document.getElementById("principalSection");
 
@@ -8,4 +10,8 @@ export function showGenerator() {
     <p>Boa sorte!</p>
 
     </div>`;
+
+  setTimeout(() => {
+    showGame();
+  }, 3000);
 }
