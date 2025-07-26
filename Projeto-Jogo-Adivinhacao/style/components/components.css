@@ -18,7 +18,9 @@ button:hover {
 
 .mensageDiv,
 .mensageDivReady,
-.mensageDivGenerator {
+.mensageDivGenerator,
+.gameTitle,
+.historyTitle {
   background-color: transparent;
   width: 440px;
   padding: 30px;
@@ -31,7 +33,7 @@ button:hover {
   height: 100%;
 }
 
-.mensageDiv h3 {
+h3 {
   text-align: center;
   font-size: 30pt;
   padding-top: 0px;
@@ -73,4 +75,51 @@ button:hover {
   margin-top: 0px;
   background-color: transparent;
   border: none;
+}
+
+.gameTitle {
+  background-color: transparent;
+  width: 440px;
+  padding: 30px;
+  padding-top: 5px;
+  font-family: cursive;
+  color: black;
+  justify-content: space-between;
+  height: auto;
+  font-size: 40px;
+  margin-bottom: 5px;
+  padding-bottom: 2px;
+}
+
+input {
+  border: 1px solid black;
+  border-radius: 15px;
+  cursor: auto;
+  width: 200px;
+  height: 30px;
+  font-size: 20px;
+  text-align: center;
+  margin: 20px;
+}
+
+.gameButton {
+  width: 120px;
+  height: 40px;
+  font-size: 15pt;
+  margin-bottom: 25px;
+}
+
+.feedback {
+  color: rgb(212, 13, 13);
+  font-family: cursive;
+  font-size: 22px;
+}
+
+input:disabled,
+button:disabled {
+  background-color: #ccc;
+  color: #666;
+  cursor: not-allowed;
+  opacity: 0.6;
+  border: 1px solid #999;
 }
