@@ -19,7 +19,8 @@ export function showGame() {
   const gameButton = document.getElementById("gameButton");
   const guessInput = document.getElementById("guessInput");
   const feedback = document.getElementById("feedback");
+  const guess = document.getElementById("guess");
   gameButton.addEventListener("click", () => {
-    checkGuess(guessInput, randomNumber, feedback);
+    checkGuess(guessInput, randomNumber, feedback, guess);
   });
 }

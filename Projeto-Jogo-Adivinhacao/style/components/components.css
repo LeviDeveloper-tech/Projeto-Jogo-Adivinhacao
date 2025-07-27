@@ -133,3 +133,15 @@ button:disabled {
   font-size: 20px;
   padding: 10px;
 }
+
+.historyTitle {
+  margin: 5px;
+  padding: 5px;
+  height: auto;
+}
+
+.guess {
+  font-size: 13pt;
+  text-align: center;
+  font-family: cursive;
+}
