@@ -1,4 +1,4 @@
-import { gameState } from "../game/gameState.js";
+import { gameState } from "./gameState.js";
 import { createRestartButtons } from "../utils/domUtils.js";
 const principalSection = document.getElementById("principalSection");
 const guess = document.getElementById("guess");
