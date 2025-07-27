@@ -1,4 +1,6 @@
 import { gameState } from "../game/gameState.js";
+import { createRestartButtons } from "../utils/domUtils.js";
+const principalSection = document.getElementById("principalSection");
 export function checkGuess(guessInput, randomNumber, feedbackP) {
   if (Number(guessInput.value) < 0 || Number(guessInput.value) > 100) {
     window.alert("Escolha um número de 0 à 100!");
@@ -22,6 +24,8 @@ export function checkGuess(guessInput, randomNumber, feedbackP) {
       feedbackP.innerHTML = "<strong>Parabéns!!!</strong> Você acertou!";
       guessInput.disabled = true;
       document.getElementById("gameButton").disabled = true;
+      createRestartButtons();
+
       return true;
     }
   }

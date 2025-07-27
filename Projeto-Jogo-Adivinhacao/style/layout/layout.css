@@ -15,6 +15,7 @@ section {
   background-color: white;
   margin: auto;
   height: 400px;
+  max-height: auto;
   width: 700px;
   border-radius: 36px;
   display: flex;
