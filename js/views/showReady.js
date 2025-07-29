@@ -9,10 +9,11 @@ export function showReady() {
     <p>Tudo pronto!</p>
     <p>Aperte <strong>"próximo"</strong> para iniciar!</p>
     </div>
-    <div>
-     <div class="divButtons" id="divButtons">
-      <button type="button" id="buttonBackReady" class="navButtons">Voltar</button>  
-      <button type="button" id="buttonNextReady" class="navButtons">Próximo</button>
+    <div class="buttonsReady">
+        <div class="divButtons" id="divButtons">
+          <button type="button" id="buttonBackReady" class="navButtons">Voltar</button>   
+          <button type="button" id="buttonNextReady" class="navButtons">Próximo</button>
+        </div>
     </div>
     `;
 

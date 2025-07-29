@@ -6,7 +6,6 @@ export function showGame() {
   const principalSection = document.getElementById("principalSection");
 
   principalSection.innerHTML = `
-  <p>${randomNumber}</p>
   <h3 id="gameTitle" class="gameTitle" >Adivinhe o número: </h3>
   <input type="number" id="guessInput" class="guessInput" min="0" max="100">
   <button type="button" id="gameButton" class="gameButton" >Palpitar</button>

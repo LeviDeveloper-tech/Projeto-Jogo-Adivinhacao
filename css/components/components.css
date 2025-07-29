@@ -26,7 +26,7 @@ button:hover {
   padding: 30px;
   padding-top: 5px;
   padding-bottom: 15px;
-  font-family: cursive;
+  font-family: var(--secundaria-fonte);
   font-size: 13pt;
   color: black;
   justify-content: space-between;
@@ -83,7 +83,7 @@ h3 {
   width: 440px;
   padding: 30px;
   padding-top: 5px;
-  font-family: cursive;
+  font-family: var(--secundaria-fonte);
   color: black;
   justify-content: space-between;
   height: auto;
@@ -112,7 +112,7 @@ input {
 
 .feedback {
   color: rgb(212, 13, 13);
-  font-family: cursive;
+  font-family: var(--secundaria-fonte);
   font-size: 22px;
 }
 
@@ -143,5 +143,5 @@ button:disabled {
 .guess {
   font-size: 13pt;
   text-align: center;
-  font-family: cursive;
+  font-family: var(--secundaria-fonte);
 }

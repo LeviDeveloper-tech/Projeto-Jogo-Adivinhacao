@@ -1,5 +1,6 @@
 :root {
   --principal-fonte: "Luckiest Guy", cursive;
+  --secundaria-fonte: "Pangolin", cursive;
   --principal-cor-fundo: #f7a451;
   --contorno-texto: 1px 1px 0 black, -1px -1px 0 black, 1px -1px 0 black,
     -1px 1px 0 black;
